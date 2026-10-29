@@ -5,6 +5,7 @@ public class SearchingModule {
     static int[] data = new int[0]; // ang array na hahanapan
 
     public static void run() {
+        System.out.println("\nAbout: Searching finds the position of a value in an array.");
         int choice;
         do {
             System.out.println("\n--- SEARCHING ---");

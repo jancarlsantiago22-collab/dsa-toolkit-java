@@ -1,6 +1,6 @@
 public class QueueModule {
 
-    // ---------- ARRAY IMPLEMENTATION (circular) ----------
+    //RRAY IMPLEMENTATION (circular)
     static class ArrayQueue {
         int[] items = new int[5]; // capacity = 5
         int front = 0;
@@ -53,7 +53,7 @@ public class QueueModule {
         }
     }
 
-    // ---------- LINKED IMPLEMENTATION ----------
+    // LINKED IMPLEMENTATION
     static class LinkedQueue {
         Node front = null;
         Node rear = null;
@@ -109,9 +109,10 @@ public class QueueModule {
         }
     }
 
-    // ---------- MENU ----------
+    //MENU 
     public static void run() {
         System.out.println("\n--- QUEUES ---");
+        System.out.println("About: A queue is FIFO (First In, First Out). The first item added is the first one removed.");
         System.out.println("1. Array Implementation");
         System.out.println("2. Linked Implementation");
         System.out.println("0. Back to Main Menu");

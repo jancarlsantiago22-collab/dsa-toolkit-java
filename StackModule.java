@@ -97,6 +97,7 @@ public class StackModule {
     // ---------- MENU ----------
     public static void run() {
         System.out.println("\n--- STACKS ---");
+        System.out.println("About: A stack is LIFO (Last In, First Out). The last item added is the first one removed.");
         System.out.println("1. Array Implementation");
         System.out.println("2. Linked Implementation");
         System.out.println("0. Back to Main Menu");

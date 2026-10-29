@@ -5,6 +5,7 @@ public class SortingModule {
     static int[] data = new int[0];
 
     public static void run() {
+        System.out.println("\nAbout: Sorting arranges the items of an array in ascending order (smallest to largest).");
         int choice;
         do {
             System.out.println("\n--- SORTING ---");

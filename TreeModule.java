@@ -128,7 +128,7 @@ public class TreeModule {
         } while (choice != 0);
     }
 
-    // ================= EXPRESSION TREE =================
+    //EXPRESSION TREE
     static class ExprNode {
         String value;
         ExprNode left;
@@ -262,6 +262,7 @@ public class TreeModule {
 
     // ================= MAIN MENU NG TREES =================
     public static void run() {
+        System.out.println("\nAbout: A tree stores data in nodes arranged in levels, with a root at the top and branches below.");
         int choice;
         do {
             System.out.println("\n--- TREES ---");
